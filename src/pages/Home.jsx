@@ -1,8 +1,11 @@
 import React from "react";
 
-import '../styles/home.css'
-import logo from '../assets/images/LOGO.png'
-import dashboard from '../assets/images/Dashboard.png'
+import "../styles/home.css";
+import logo from "../assets/images/LOGO.png";
+import dashboard from "../assets/images/Dashboard.png";
+import mobile from '../assets/images/Iphone.png'
+
+import ImageSlider from "../components/slider/ImageSlider";
 
 const Home = () => {
   return (
@@ -28,11 +31,73 @@ const Home = () => {
         </div>
       </header>
       <main>
-        <img
-          src={dashboard}
-          alt=""
-          className="dashboard"
-        />
+        <section className="intro__section">
+          <img
+            src={dashboard}
+            alt=""
+            className="dashboard"
+          />
+          <p className="duty__para">
+            Never chase a client again. Speed up
+            your cash flow and manage our business
+            at your fingertips. Let Nestlypay help
+            with the hard work, while you focus on
+            your business. <br />
+            <span>
+              Get a fast invoice today &rarr;
+            </span>
+          </p>
+        </section>
+        <section className="slider">
+          <ImageSlider />
+        </section>
+        <section className="last__section">
+          <h2>
+            Ready to Grow Your <br /> Business in
+            One Solution?
+          </h2>
+          <p>
+            Say hello to Nestlypay, a platform
+            that enables you to send professional
+            invoices, save time, digitalize your
+            bills and manage your business in
+            minutes.
+          </p>
+          <button>Get Started</button>
+          <div className="mobile__dashboard">
+            <img
+              src={mobile}
+              alt=""
+              className="mobile"
+            />
+            <img
+              src={dashboard}
+              alt=""
+              className="last__dashboard"
+            />
+          </div>
+        </section>
+        <footer>
+          <div className="icon">
+            <div className="icon__wrap">
+              <i class="ri-facebook-line"></i>
+            </div>
+            <div className="icon__wrap">
+              <i class="ri-twitter-fill"></i>
+            </div>
+            <div className="icon__wrap">
+              <i class="ri-instagram-line"></i>
+            </div>
+            <div className="icon__wrap">
+              <i class="ri-linkedin-line"></i>
+            </div>
+          </div>
+          <p>help@nestlypay.co</p>
+          <p>
+            © 2022. NestlyPay Limited All rights
+            reserved
+          </p>
+        </footer>
       </main>
     </div>
   );

@@ -1,4 +1,5 @@
 header {
+  box-sizing: border-box;
   background-image: url("../assets/images/Ellipse.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -8,20 +9,21 @@ header {
 }
 
 .nav {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   height: 100px;
+  padding: 0 100px;
 }
 
-.nav img {
+/* .nav img {
   margin-left: 100px;
-}
+} */
 
 .nav button {
   box-sizing: border-box;
-  margin-right: 100px;
   width: 200px;
   height: 60px;
   border: 2px solid #ffffff;
@@ -29,6 +31,7 @@ header {
   background: inherit;
   font-size: 16px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .desc {
@@ -73,16 +76,143 @@ header {
   line-height: 20px;
   text-align: center;
   color: #0c46d3;
+  cursor: pointer;
 }
 
 main {
   box-sizing: border-box;
   width: 100%;
+}
+
+.intro__section {
+  box-sizing: border-box;
+  width: 100%;
   padding: 100px;
+  margin-bottom: 0;
 }
 
 .dashboard {
   width: 1180px;
   height: 775px;
   margin: -590px auto 0;
+}
+
+.duty__para {
+  font-weight: 450;
+  font-size: 25px;
+  line-height: 40px;
+  margin: 50px 0 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.duty__para span {
+  font-weight: 500;
+  color: #070707;
+}
+
+.slider {
+  box-sizing: border-box;
+  padding: 0 100px;
+  width: 100%;
+}
+
+.last__section {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50px 100px;
+  background: #0c46d3;
+  height: 970px;
+  margin-top: 100px;
+}
+
+.last__section h2 {
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+.last__section p {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 450;
+  width: 661px;
+  color: #ffffff;
+}
+
+.last__section button {
+  width: 200px;
+  height: 60px;
+  background: inherit;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.mobile__dashboard {
+  display: flex;
+  margin-top: 40px;
+  margin-top: -10px;
+  height: 600px;
+}
+
+.mobile__dashboard .mobile {
+  width: 333px;
+  height: 451px;
+  margin-top: 95px;
+  z-index: 2;
+}
+
+.mobile__dashboard .last__dashboard {
+  width: 80%;
+  height: 100%;
+  margin-left: -30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 100px;
+  position: absolute;
+  top: 3190px;
+  width: 100%;
+  height: 200px;
+  background: #ffffff;
+  z-index: 3;
+}
+
+footer p {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+footer .icon{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: fit-content;
+}
+
+footer .icon .icon__wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0c44d330;
+}
+
+footer .icon .icon__wrap i{
+  font-size: 20px;
+  color: #0C46D3;
+  cursor: pointer;
 }
