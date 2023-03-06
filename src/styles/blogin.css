@@ -1,0 +1,75 @@
+.blogin__intro h5 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 55px;
+  margin: 0;
+}
+
+.blogin__intro p {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+.blogin__form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogin__input {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1.2px solid #d7cece;
+  border-radius: 8px;
+  width: 400px;
+  height: 55px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  padding: 12px 22px;
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 30px;
+  color: #979797;
+}
+
+.blogin__input__password {
+  margin-top: 0;
+}
+
+.blogin__submit__btn {
+  box-sizing: border-box;
+  width: 400px;
+  height: 55px;
+  background: #0c46d3;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.blogin__submit__btn:hover {
+  background: #1752e7;
+}
+
+.blogin__more__action p{
+  text-align: center;
+  color: #000000
+}
+
+.add__account {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.add__account span{
+  color: #0C46D3;
+  cursor: pointer;
+}

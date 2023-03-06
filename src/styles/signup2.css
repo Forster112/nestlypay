@@ -1,0 +1,77 @@
+.signup2__intro {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0;
+}
+
+.signup2__desc {
+  font-weight: 450;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0 0 24px 0;
+  width: 450px;
+}
+
+.signup2__form__wrap form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signup2__input {
+  box-sizing: border-box;
+  width: 400px;
+  height: 40px;
+  background: #ffffff;
+  border: 1.2px solid #bfbcbc;
+  border-radius: 8px;
+  padding: 0px 22px;
+}
+
+.signup2__little__input {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.signup2__little__input .signup2__input {
+  width: 42.3%;
+}
+
+.signup2__little__input .signup2__select {
+  box-sizing: border-box;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 30px;
+  color: #979797;
+  padding: 0 13px;
+}
+
+.signup2__btn {
+  width: 400px;
+  height: 35px;
+  background: #0c46d3;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.signup__to__signin {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.signup__to__signin span{
+  color: #0C46D3;
+  cursor: pointer;
+}

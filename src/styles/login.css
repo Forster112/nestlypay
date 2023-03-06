@@ -1,0 +1,71 @@
+.login__intro {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0;
+}
+
+.login__desc {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0 0 24px;
+}
+
+.login__form__wrap form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.login__input {
+  box-sizing: border-box;
+  width: 400px;
+  height: 55px;
+  background: #ffffff;
+  border: 1.2px solid #cbc9c9;
+  border-radius: 8px;
+  padding: 0 22px;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 30px;
+  color: #979797;
+}
+
+.login__btn {
+  box-sizing: border-box;
+  width: 400px;
+  height: 55px;
+  background: #0c46d3;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.login__to__signup {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+}
+
+.login__to__signup span {
+  color: #0c46d3;
+}
+
+.login__fpassword {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #f38585;
+  margin: 0;
+}

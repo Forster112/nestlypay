@@ -49,9 +49,9 @@
 .form__wrap {
   box-sizing: border-box;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
   background: #ffffff;
   height: 100vh;
-  padding: 91px;
+  padding: 0 0 0 91px;
 }

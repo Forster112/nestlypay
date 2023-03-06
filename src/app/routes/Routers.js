@@ -2,12 +2,12 @@ import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 
 import Home from '../../pages/Home'
-import MasterAuth from '../../pages/MasterAuth'
+import MasterAuth from '../../pages/General/MasterAuth'
 import Login from '../../pages/PersonalAccount/Login'
 import NewUserSign from '../../pages/PersonalAccount/NewUserSign'
-import ResetPass from '../../pages/PersonalAccount/ResetPass'
+import ResetPass from '../../pages/General/ResetPass'
 import Signup from "../../pages/PersonalAccount/Signup";
-import UpdatePass from '../../pages/PersonalAccount/UpdatePass'
+import UpdatePass from '../../pages/General/UpdatePass'
 
 import BLogin from '../../pages/BusinessAccount/BLogin'
 import SignUp1 from '../../pages/BusinessAccount/SignUp1'

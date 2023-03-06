@@ -25,6 +25,7 @@ const ImageSlider = () => {
     slidesToScroll: 1,
     swipeToSlide: true,
   };
+  
   return (
     <div className="sliderContainer">
       <Slider {...settings}>

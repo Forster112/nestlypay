@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import LoginComponent from "../components/LoginComponent";
+import LoginComponent from "../../components/LoginComponent";
 
-import "../styles/masterauth.css";
+import "../../styles/masterauth.css";
 
 const MasterAuth = () => {
   const title =

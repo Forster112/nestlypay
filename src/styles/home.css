@@ -18,10 +18,6 @@ header {
   padding: 0 100px;
 }
 
-/* .nav img {
-  margin-left: 100px;
-} */
-
 .nav button {
   box-sizing: border-box;
   width: 200px;
@@ -32,6 +28,10 @@ header {
   font-size: 16px;
   color: #ffffff;
   cursor: pointer;
+}
+
+.nav button:hover{
+  background: #1854eb;
 }
 
 .desc {
@@ -76,6 +76,11 @@ header {
   text-align: center;
   color: #0c46d3;
   cursor: pointer;
+}
+
+.get__started:hover{
+  background: #c1c0c0;
+  border: #c1c0c0;
 }
 
 .desc a{
@@ -154,6 +159,10 @@ main {
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+}
+
+.last__section button:hover{
+  background: #1854eb;
 }
 
 .mobile__dashboard {
