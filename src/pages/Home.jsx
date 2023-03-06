@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "../styles/home.css";
 import logo from "../assets/images/LOGO.png";
 import dashboard from "../assets/images/Dashboard.png";
-import mobile from '../assets/images/Iphone.png'
+import mobile from "../assets/images/Iphone.png";
 
 import ImageSlider from "../components/slider/ImageSlider";
 
@@ -13,7 +14,9 @@ const Home = () => {
       <header>
         <div className="nav">
           <img src={logo} alt="" />
-          <button>Sign In</button>
+          <Link to="/masterauth">
+            <button>Sign In</button>
+          </Link>
         </div>
         <div className="desc">
           <h2 className="title">
@@ -25,9 +28,11 @@ const Home = () => {
             finance, track sales, and <br /> get
             paid faster.
           </p>
-          <button className="get__started">
-            Create free invoice
-          </button>
+          <Link to="/signup">
+            <button className="get__started">
+              Create free invoice
+            </button>
+          </Link>
         </div>
       </header>
       <main>
@@ -63,7 +68,9 @@ const Home = () => {
             bills and manage your business in
             minutes.
           </p>
-          <button>Get Started</button>
+          <Link to="/masterauth">
+            <button>Get Started</button>
+          </Link>
           <div className="mobile__dashboard">
             <img
               src={mobile}

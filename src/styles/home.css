@@ -67,7 +67,6 @@ header {
 .desc .get__started {
   width: 200px;
   height: 60px;
-  margin: 24px auto 10px;
   background: #ffffff;
   border-radius: 10px;
   border: 1px solid #ffffff;
@@ -77,6 +76,11 @@ header {
   text-align: center;
   color: #0c46d3;
   cursor: pointer;
+}
+
+.desc a{
+  width: fit-content;
+  margin: 24px auto 10px;
 }
 
 main {
@@ -194,14 +198,14 @@ footer p {
   color: rgba(0, 0, 0, 0.7);
 }
 
-footer .icon{
+footer .icon {
   display: flex;
   flex-direction: row;
   gap: 20px;
   width: fit-content;
 }
 
-footer .icon .icon__wrap{
+footer .icon .icon__wrap {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,8 +215,8 @@ footer .icon .icon__wrap{
   background: #0c44d330;
 }
 
-footer .icon .icon__wrap i{
+footer .icon .icon__wrap i {
   font-size: 20px;
-  color: #0C46D3;
+  color: #0c46d3;
   cursor: pointer;
 }
