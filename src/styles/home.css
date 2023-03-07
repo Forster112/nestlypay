@@ -365,6 +365,10 @@ footer .icon .icon__wrap i {
 
 
 @media screen and (max-width: 440px) {
+  header{
+    height: 1150px;
+  }
+
   .nav{
     padding: 0 40px;
   }
@@ -379,30 +383,35 @@ footer .icon .icon__wrap i {
   }
 
   .desc{
-    margin: 50px auto 0;
+    margin: 45px auto 0;
   }
 
   .desc .title{
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 25px;
   }
 
   .desc .para{
-    font-size: 12px;
-    line-height: 20px;
-    margin-top: 10px;
+    font-size: 11px;
+    line-height: 18px;
+    margin-top: 3px;
     text-align: center;
   }
 
   .desc .get__started{
-    width: 90px;
-    height: 50px;
-    font-size: 12px;
+    width: 85px;
+    height: 45px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .desc a{
+    margin: 12px auto 10px;
   }
 
   .intro__section{
     padding: 100px 30px;
-    margin-top: -450px;
+    margin-top: -540px;
   }
 
   .dashboard{

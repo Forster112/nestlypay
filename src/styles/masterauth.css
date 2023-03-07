@@ -68,6 +68,10 @@
 }
 
 @media screen and (max-width: 430px) {
+  .form__container{
+    padding-left: 40px;
+  }
+  
   .account__type{
     font-size: 21px;
     line-height: 30px;

@@ -79,6 +79,7 @@
 @media screen and (max-width: 430px) {
   .signup2__intro__wrap{
     margin-top: 150px;
+    margin-left: 40px;
   }
 
   .signup2__intro{
