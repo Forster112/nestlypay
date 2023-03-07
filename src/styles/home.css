@@ -401,6 +401,7 @@ footer .icon .icon__wrap i {
   }
 
   .intro__section{
+    padding: 100px 30px;
     margin-top: -450px;
   }
 
@@ -412,6 +413,10 @@ footer .icon .icon__wrap i {
   .duty__para{
     font-size: 12px;
     line-height: 25px;
+  }
+
+  .slider{
+    padding: 0 30px;
   }
 
   .last__section{
