@@ -66,3 +66,39 @@
   line-height: 24px;
   color: rgba(0, 0, 0, 0.7);
 }
+
+@media screen and (max-width: 430px) {
+  .account__type{
+    font-size: 21px;
+    line-height: 30px;
+  }
+
+  .form__container span{
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  .div{
+    width: 80%;
+    height: 60px;
+  }
+
+  .div .divIcon__wrap{
+    width: 40px;
+    height: 40px;
+  }
+
+  .divIcon__wrap i{
+    font-size: 20px;
+  }
+
+  .div h4{
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .div p{
+    font-size: 10px;
+    line-height: 15px;
+  }
+}

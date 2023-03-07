@@ -73,3 +73,31 @@
   color: #0C46D3;
   cursor: pointer;
 }
+
+@media screen and (max-width: 430px) {
+  .blogin__intro h5{
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  .blogin__intro p{
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .blogin__input{
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .blogin__submit__btn{
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .blogin__more__action p{
+    font-size: 12px;
+  }
+}

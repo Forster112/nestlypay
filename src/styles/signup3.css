@@ -52,3 +52,28 @@
 .signup3__btn:hover{
   background: #144fe4;
 }
+
+@media screen and (max-width: 430px) {
+  .signup3__intro{
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  .signup3__desc{
+    font-size: 12px;
+    line-height: 20px;
+    width: 70%;
+  }
+
+  .signup3__input{
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .signup3__btn{
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+}

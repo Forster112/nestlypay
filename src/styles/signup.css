@@ -64,3 +64,31 @@
   color: #0c46d3;
   cursor: pointer;
 }
+
+@media screen and (max-width: 430px) {
+  .signup__intro{
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  .signup__desc{
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .signup__input{
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .signup__btn{
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .signup__to__signin{
+    font-size: 12px;
+  }
+}

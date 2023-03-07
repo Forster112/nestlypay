@@ -13,13 +13,15 @@ const SignUp2 = () => {
       intro={title}
       type="Businesses"
     >
-      <h5 className="signup2__intro">
-        Business Information
-      </h5>
-      <p className="signup2__desc">
-        Provide your business name, business mail
-        and company address.
-      </p>
+      <div className="signup2__intro__wrap">
+        <h5 className="signup2__intro">
+          Business Information
+        </h5>
+        <p className="signup2__desc">
+          Provide your business name, business
+          mail and company address.
+        </p>
+      </div>
       <div className="signup2__form__wrap">
         <form>
           <input

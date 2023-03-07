@@ -53,3 +53,28 @@
 .newuser__btn:hover{
   background: #0f4ff2;
 }
+
+@media screen and (max-width: 430px) {
+  .newuser__intro{
+    font-size: 21px;
+    line-height: 30px;
+  }
+
+  .newuser__desc{
+    font-size: 12px;
+    line-height: 20px;
+    width: 70%;
+  }
+
+  .newuser__input {
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .newuser__btn{
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+}

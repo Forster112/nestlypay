@@ -10,7 +10,7 @@ import ImageSlider from "../components/slider/ImageSlider";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home__wrap">
       <header>
         <div className="nav">
           <img src={logo} alt="" />

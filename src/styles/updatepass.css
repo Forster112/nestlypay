@@ -44,3 +44,22 @@
 .updatepass__btn:hover {
   background: #0f4deb;
 }
+
+@media screen and (max-width: 430px) {
+  .updatepass__intro{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .updatepass__input{
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .updatepass__btn{
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+}

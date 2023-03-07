@@ -3,3 +3,21 @@
   height: 450px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 780px) {
+  .sliderContainer img{
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .sliderContainer img{
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .sliderContainer img{
+    height: 200px;
+  }
+}

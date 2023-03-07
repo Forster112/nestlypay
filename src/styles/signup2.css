@@ -75,3 +75,40 @@
   color: #0C46D3;
   cursor: pointer;
 }
+
+@media screen and (max-width: 430px) {
+  .signup2__intro__wrap{
+    margin-top: 150px;
+  }
+
+  .signup2__intro{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .signup2__desc{
+    font-size: 12px;
+    line-height: 25px;
+    width: 70%;
+  }
+
+  .signup2__input{
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .signup2__btn{
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .signup2__little__input .signup2__input{
+    width: 36.5%;
+  }
+
+  .signup__to__signin{
+    font-size: 12px;
+  }
+}

@@ -1,3 +1,7 @@
+.home__wrap{
+  width: 100%;
+}
+
 header {
   box-sizing: border-box;
   background-image: url("../assets/images/Ellipse.png");
@@ -39,7 +43,7 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 649px;
+  width: 100%;
   height: fit-content;
   margin: 100px auto 0;
   color: #ffffff;
@@ -101,7 +105,7 @@ main {
 }
 
 .dashboard {
-  width: 1180px;
+  width: 100%;
   height: 775px;
   margin: -590px auto 0;
 }
@@ -145,7 +149,7 @@ main {
   font-size: 18px;
   line-height: 40px;
   font-weight: 450;
-  width: 661px;
+  width: 80%;
   color: #ffffff;
 }
 
@@ -173,14 +177,14 @@ main {
 }
 
 .mobile__dashboard .mobile {
-  width: 333px;
+  width: 35%;
   height: 451px;
   margin-top: 95px;
   z-index: 2;
 }
 
 .mobile__dashboard .last__dashboard {
-  width: 80%;
+  width: 70%;
   height: 100%;
   margin-left: -30px;
 }
@@ -228,4 +232,238 @@ footer .icon .icon__wrap i {
   font-size: 20px;
   color: #0c46d3;
   cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+  .nav button{
+    width: 150px;
+  }
+
+  .desc{
+    margin: 70px auto 0;
+  }
+
+  .desc .title{
+    font-size: 35px;
+  }
+
+  .desc .para{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .desc .get__started{
+    width: 160px;
+  }
+
+  .dashboard{
+    margin-top: -1000px;
+    height: 700px;
+  }
+
+  .duty__para{
+    font-size: 16px;
+  }
+
+  .last__section{
+    height: 833px;
+  }
+
+  .last__section h2{
+    font-size: 32px;
+  }
+
+  .last__section p{
+    font-size: 15px;
+  }
+
+  .last__section button{
+    width: 160px;
+  }
+
+  .mobile__dashboard{
+    height: 480px;
+  }
+
+  .mobile__dashboard .mobile{
+    height: 371px;
+  }
+
+  footer{
+    flex-direction: column;
+    justify-content: center;
+    top: 2830px;
+    padding-top: 120px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .nav button{
+    width: 110px;
+  }
+
+  .desc .title{
+    font-size: 25px;
+    margin-top: -50px;
+    line-height: 30px;
+  }
+
+  .desc .para{
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .desc .get__started{
+    width: 120px;
+  }
+
+  .intro__section{
+    margin-top: -300px;
+  }
+
+  .dashboard{
+    margin-top: -1000px;
+    height: 500px;
+  }
+
+  .duty__para{
+    font-size: 14px;
+  }
+
+  .last__section{
+    height: 623px;
+  }
+
+  .last__section h2{
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .last__section p{
+    font-size: 13px;
+  }
+
+  .last__section button{
+    width: 120px;
+  }
+
+  .mobile__dashboard{
+    height: 300px;
+  }
+
+  .mobile__dashboard .mobile{
+    height: 251px;
+  }
+
+  footer{
+    flex-direction: column;
+    justify-content: center;
+    top: 2430px;
+    padding-top: 120px;
+  }
+}
+
+
+@media screen and (max-width: 440px) {
+  .nav{
+    padding: 0 40px;
+  }
+
+  .nav img{
+    width: 100px;
+  }
+
+  .nav button{
+    width: 75px;
+    height: 50px;
+  }
+
+  .desc{
+    margin: 50px auto 0;
+  }
+
+  .desc .title{
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .desc .para{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .desc .get__started{
+    width: 90px;
+    height: 50px;
+    font-size: 12px;
+  }
+
+  .intro__section{
+    margin-top: -450px;
+  }
+
+  .dashboard{
+    margin-top: -900px;
+    height: 470px;
+  }
+
+  .duty__para{
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .last__section{
+    height: 530px;
+    padding: 50px 50px;
+  }
+
+  .last__section h2{
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .last__section p{
+    font-size: 12px;
+    line-height: 30px;
+    width: 80%;
+  }
+
+  .last__section button{
+    width: 90px;
+    height: 50px;
+    font-size: 12px;
+  }
+
+  .mobile__dashboard{
+    height: 250px;
+    margin-top: 5px;
+  }
+
+  .mobile__dashboard .mobile{
+    height: 201px;
+    margin-top: 35px;
+  }
+
+  footer{
+    flex-direction: column;
+    justify-content: center;
+    top: 1940px;
+    padding-top: 100px;
+  }
+
+  footer p{
+    font-size: 10px;
+    line-height: 30px;
+  }
+
+  footer .icon .icon__wrap{
+    width: 25px;
+    height: 25px;
+  }
+
+  footer .icon .icon__wrap i{
+    font-size: 12px;
+  }
 }
